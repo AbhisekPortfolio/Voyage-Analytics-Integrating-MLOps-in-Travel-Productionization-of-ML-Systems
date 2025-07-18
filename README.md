@@ -46,7 +46,7 @@ Running the Docker Image
 
 Gender Classification: http://localhost:8080/predict/gender Hotel Recommendation: http://localhost:8080/recommend/hotel Price Prediction: http://localhost:8080/predict/price Access the Prediction Models The trained prediction models are also available for download. You can access them via the following link:
 
- /Download/Prediction/Models/from/Google/Drive
+ https://drive.google.com/drive/u/1/folders/1udEOzCpI2D3MMcg9p4uNP6iZUwK1eiG3
 
 License This project is licensed under the MIT License. See the LICENSE file for more details.
 
