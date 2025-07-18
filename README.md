@@ -13,6 +13,7 @@ The dataset used in this project encompasses multiple aspects:
  
 # Models
 1. Gender Classification Model
+ 
   .Task: Classify the gender of users based on available features.
    
   .Model Type: Classification
@@ -20,6 +21,7 @@ The dataset used in this project encompasses multiple aspects:
   .Performance Metrics: Accuracy, Precision, Recall, F1-Score
   
 2. Hotel Recommendation Model
+ 
   .Task: Recommend hotels to users based on past preferences and behavioral data.
   
   .Model Type: Recommendation System
@@ -27,6 +29,7 @@ The dataset used in this project encompasses multiple aspects:
   .Performance Metrics: Precision@K, Recall@K, Mean Average Precision (MAP)
   
 3. Price Prediction Model
+
   .Task: Predict the price of hotel bookings.
   
   .Model Type: Regression
@@ -43,7 +46,7 @@ Running the Docker Image
 
 Gender Classification: http://localhost:8080/predict/gender Hotel Recommendation: http://localhost:8080/recommend/hotel Price Prediction: http://localhost:8080/predict/price Access the Prediction Models The trained prediction models are also available for download. You can access them via the following link:
 
- /DownloadPredictionModelsfromGoogleDrive
+ /Download/Prediction/Models/from/Google/Drive
 
 License This project is licensed under the MIT License. See the LICENSE file for more details.
 
