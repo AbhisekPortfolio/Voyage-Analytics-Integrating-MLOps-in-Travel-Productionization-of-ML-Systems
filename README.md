@@ -40,13 +40,14 @@ The dataset used in this project encompasses multiple aspects:
 To facilitate ease of deployment and testing, all models are encapsulated within a Docker image. This allows for seamless integration into various environments, whether for development, testing, or production purposes.
 Running the Docker Image
 1. Pull the Docker Image:
+
    docker pull <docker-image-name>
    
-2. Run the Docker Container: bash Copy code docker run -p 8080:8080 Accessing the Models Once the Docker container is running, the models can be accessed via the provided API endpoints:
+3. Run the Docker Container: bash Copy code docker run -p 8080:8080 Accessing the Models Once the Docker container is running, the models can be accessed via the provided API endpoints:
 
 Gender Classification: http://localhost:8080/predict/gender Hotel Recommendation: http://localhost:8080/recommend/hotel Price Prediction: http://localhost:8080/predict/price Access the Prediction Models The trained prediction models are also available for download. You can access them via the following link:
 
- Download Prediction Models from Google Drive
+ https://rb.gy/8y0xa4
 
 License This project is licensed under the MIT License. See the LICENSE file for more details.
 
